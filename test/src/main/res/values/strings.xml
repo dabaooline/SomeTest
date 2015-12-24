@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="test"><font color='red'>样式一</font></string>
+    <string name="hello"><font color='red'>你好啊!</font><br/><br/><br/></string>
+</resources>

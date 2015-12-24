@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cis.viewgroupdispatchtest.MainActivity">
+
+   <com.cis.viewgroupdispatchtest.widget.TestLinearLayout
+       android:id="@+id/tl"
+       android:layout_height="match_parent"
+       android:layout_width="match_parent"
+       >
+       <com.cis.viewgroupdispatchtest.widget.TestButton
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:text="测试"
+           android:textSize="20sp"
+           android:textColor="#000"
+           android:id="@+id/tbt"
+           />
+
+   </com.cis.viewgroupdispatchtest.widget.TestLinearLayout>
+</LinearLayout>

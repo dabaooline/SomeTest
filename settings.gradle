@@ -1,0 +1,1 @@
+include ':firstapp', ':viewgroupdispatchtest', ':surfaceviewtest', ':JChat', ':IMKit', ':app'
